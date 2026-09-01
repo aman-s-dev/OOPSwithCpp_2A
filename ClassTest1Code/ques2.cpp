@@ -7,11 +7,11 @@ class Employee{
     float empSalary;
 
     public:
-    void Input(string id, string name, float slry);
+    Employee(string id, string name, float slry);
     void display();    
 };
 
-void Employee::Input(string id, string name, float slry){
+Employee::Employee(string id, string name, float slry){
     empId = id;
     empName = name;
     empSalary = slry;
@@ -24,8 +24,7 @@ void Employee::display(){
 }
 
 int main(){
-    Employee e1;
-    e1.Input("25A25", "Aman", 85000.0);
+    Employee e1("25A25", "Aman", 85000.0);
     e1.display();
 
 
