@@ -26,6 +26,4 @@ void Employee::display(){
 int main(){
     Employee e1("25A25", "Aman", 85000.0);
     e1.display();
-
-
 }
