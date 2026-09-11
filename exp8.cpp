@@ -9,7 +9,7 @@ class Product{
     Product(string n, float p): name(n), price(p) {}
 
     void display(){
-        cout<<name<<"   Price: "<<price<<endl;
+        cout<<endl<<name<<"   Price: "<<price<<"\n\n";
     }
 };
 
